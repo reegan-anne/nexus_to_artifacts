@@ -5,6 +5,11 @@ What you will need:
 1. Login details to your Sonatype Nexus instance
 2. Minimum Contributor rights to your Azure Artifacts Feed
 3. Your local settings.xml file with valid credentials for your Azure Artifacts feed
+4. Ensure your linux distro has the following packages installed:
+```
+sudo apt-get -y install libxml2-utils
+sudo apt-get -y install jq
+``` 
 
 How to use?
 1. Clone this repo
